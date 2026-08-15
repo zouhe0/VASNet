@@ -58,7 +58,6 @@ useless/
 *.orig
 nohup.out
 .optim-agent-runs/
-discussion/
 bubble_chart_*.pdf
 zz_*.csv
 conda_packages.txt
