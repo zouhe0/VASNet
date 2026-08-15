@@ -1,0 +1,65 @@
+# 数据集和原始数据（强烈建议整个文件夹排除）
+data/
+dataset/
+datasets/
+*.zip
+*.tar.gz
+*.rar
+
+# 模型权重和检查点（超大文件）
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.pb
+*.onnx
+models/
+checkpoints/
+weights/
+
+# 输出文件和日志
+outputs/
+logs/
+results/
+runs/
+*.log
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.so
+
+# 环境变量和本地配置
+.env
+.venv
+venv/
+.vscode/
+.idea/
+
+# 多媒体数据（如果只是普通视频图片素材，也建议排除）
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.bmp
+Vim/
+pretrained_model/
+result/
+result_abla/
+result_self/
+useless/
+*.pdf
+*.sh
+*.csv
+*.bak
+*.orig
+nohup.out
+.optim-agent-runs/
+discussion/
+bubble_chart_*.pdf
+zz_*.csv
+conda_packages.txt
+pip_requirements.txt
