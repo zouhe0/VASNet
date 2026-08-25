@@ -1,0 +1,39 @@
+# ============================================================
+# Environment: self-supervised pansharpening (ZUP)
+# Tested on: Python 3.10, CUDA 12.4, Ubuntu 22.04
+# Conda env name: zspan
+# ============================================================
+
+# ---- Deep Learning Framework ----
+torch==2.4.1+cu124
+torchvision==0.19.1+cu124
+
+# ---- Numerical & Scientific ----
+numpy==2.2.6
+scipy==1.15.3
+
+# ---- Data I/O ----
+h5py==3.16.0
+
+# ---- Computer Vision ----
+kornia==0.8.2
+scikit-image==0.25.2
+
+# ---- Visualization (optional, for analysis scripts) ----
+matplotlib==3.10.9
+tensorboard==2.21.0
+
+# ---- PyTorch CUDA backend dependencies (auto-installed with torch) ----
+# nvidia-cublas-cu12, nvidia-cuda-cupti-cu12, nvidia-cuda-nvrtc-cu12,
+# nvidia-cuda-runtime-cu12, nvidia-cudnn-cu12, nvidia-cufft-cu12,
+# nvidia-curand-cu12, nvidia-cusolver-cu12, nvidia-cusparse-cu12,
+# nvidia-nccl-cu12, nvidia-nvjitlink-cu12, nvidia-nvtx-cu12
+
+# ============================================================
+# Quick install (CUDA 12.4):
+#   conda create -n zspan python=3.10 -y
+#   conda activate zspan
+#   pip install torch==2.4.1 torchvision==0.19.1 --index-url https://download.pytorch.org/whl/cu124
+#   pip install numpy==2.2.6 scipy==1.15.3 h5py==3.16.0 kornia==0.8.2
+#   pip install scikit-image==0.25.2 matplotlib==3.10.9 tensorboard==2.21.0
+# ============================================================
